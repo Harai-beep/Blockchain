@@ -1,0 +1,126 @@
+﻿  CryptoBlock.cpp
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(6,1): error C2011: 'Transaction': 'class' type redefinition
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(10,1): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,34): error C2227: left of '->calculateHash' must point to class/struct/union/generic type
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,21): error C2143: syntax error: missing ';' before 'CryptoBlock::calculateHash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(15,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(15,1): error C2556: 'int CryptoBlock::calculateHash(void)': overloaded function differs only by return type from 'std::string CryptoBlock::calculateHash(void)'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(20): message : see declaration of 'CryptoBlock::calculateHash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,21): error C2371: 'CryptoBlock::calculateHash': redefinition; different basic types
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(20): message : see declaration of 'CryptoBlock::calculateHash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(16,13): error C2872: 'string': ambiguous symbol
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564,7): message : or       'std::string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(16,6): error C2872: 'string': ambiguous symbol
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564,7): message : or       'std::string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(16,2): error C2923: 'std::hash': 'string' is not a valid template type argument for parameter '_Kty'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14): message : see declaration of 'string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(16,15): error C2146: syntax error: missing ';' before identifier 'str_hash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(17,60): error C2065: 'getTx': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(17,84): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(17,90): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(17,91): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(17,121): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(17,127): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(17,128): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(17,19): error C2065: 'str_hash': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(17,9): error C2065: 'to_string': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(20,8): error C2872: 'string': ambiguous symbol
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564,7): message : or       'std::string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(20,21): error C2143: syntax error: missing ';' before 'CryptoBlock::now'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(20,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(20,1): error C2086: 'int string': redefinition
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14): message : see declaration of 'string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(21,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(21,1): error C2556: 'int CryptoBlock::now(void)': overloaded function differs only by return type from 'std::string CryptoBlock::now(void)'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(21): message : see declaration of 'CryptoBlock::now'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(20,21): error C2371: 'CryptoBlock::now': redefinition; different basic types
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(21): message : see declaration of 'CryptoBlock::now'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(23,9): error C2872: 'string': ambiguous symbol
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564,7): message : or       'std::string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(23,13): error C2872: 'string': ambiguous symbol
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564,7): message : or       'std::string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(23,9): error C2146: syntax error: missing ';' before identifier 'str'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(23,9): error C2065: 'str': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(24,2): error C2065: 'str': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(24,24): error C2065: 'str': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(24,37): error C2065: 'str': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(24,52): error C2660: 'remove': function does not take 2 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(364,26): message : see declaration of 'remove'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(24,55): error C2065: 'str': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(25,9): error C2065: 'str': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(29,1): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(36,42): error C2872: 'string': ambiguous symbol
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564,7): message : or       'std::string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(36,42): error C2061: syntax error: identifier 'string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(37,1): error C2511: 'CryptoBlock::CryptoBlock(int)': overloaded member function not found in 'CryptoBlock'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(7): message : see declaration of 'CryptoBlock'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(38,2): error C2597: illegal reference to non-static member 'CryptoBlock::index'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(22): message : see declaration of 'CryptoBlock::index'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(39,22): error C2065: 'prevHash': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(40,17): error C2065: 'sender': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(41,20): error C2065: 'recipient': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(42,19): error C2065: 'quantity': undeclared identifier
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(50,8): error C2872: 'string': ambiguous symbol
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564,7): message : or       'std::string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(50,21): error C2143: syntax error: missing ';' before 'CryptoBlock::getTimeStamp'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(50,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(50,1): error C2086: 'int string': redefinition
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14): message : see declaration of 'string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(51,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(51,1): error C2556: 'int CryptoBlock::getTimeStamp(void)': overloaded function differs only by return type from 'std::string CryptoBlock::getTimeStamp(void)'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(13): message : see declaration of 'CryptoBlock::getTimeStamp'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(50,21): error C2371: 'CryptoBlock::getTimeStamp': redefinition; different basic types
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(13): message : see declaration of 'CryptoBlock::getTimeStamp'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(55,8): error C2872: 'string': ambiguous symbol
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564,7): message : or       'std::string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(55,21): error C2143: syntax error: missing ';' before 'CryptoBlock::getPreviousBlockHash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(55,41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(55,1): error C2086: 'int string': redefinition
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14): message : see declaration of 'string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(56,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(56,1): error C2556: 'int CryptoBlock::getPreviousBlockHash(void)': overloaded function differs only by return type from 'std::string CryptoBlock::getPreviousBlockHash(void)'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(14): message : see declaration of 'CryptoBlock::getPreviousBlockHash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(55,21): error C2371: 'CryptoBlock::getPreviousBlockHash': redefinition; different basic types
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(14): message : see declaration of 'CryptoBlock::getPreviousBlockHash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(60,8): error C2872: 'string': ambiguous symbol
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14,1): message : could be 'int string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xstring(4564,7): message : or       'std::string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(60,21): error C2143: syntax error: missing ';' before 'CryptoBlock::getBlockHash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(60,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(60,1): error C2086: 'int string': redefinition
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(14): message : see declaration of 'string'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(61,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(61,1): error C2556: 'int CryptoBlock::getBlockHash(void)': overloaded function differs only by return type from 'std::string CryptoBlock::getBlockHash(void)'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(15): message : see declaration of 'CryptoBlock::getBlockHash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(60,21): error C2371: 'CryptoBlock::getBlockHash': redefinition; different basic types
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.h(15): message : see declaration of 'CryptoBlock::getBlockHash'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(66,1): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\CryptoBlock.cpp(65,26): error C2027: use of undefined type 'Transaction'
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+  CryptoBlockchain.cpp
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(6,1): error C2011: 'Transaction': 'class' type redefinition
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+  Source.cpp
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(6,1): error C2011: 'Transaction': 'class' type redefinition
+C:\Users\Alexandru\Desktop\Probleme laborator PCLP\TEMA1\TEMA1\Transaction.h(5): message : see declaration of 'Transaction'
+  Transaction.cpp
+  Generating Code...
